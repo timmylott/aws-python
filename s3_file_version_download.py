@@ -1,6 +1,7 @@
 import boto3
 import datetime
 
+# https://boto3.amazonaws.com/v1/documentation/api/latest/reference/services/s3/client/list_object_versions.html
 
 def get_all_s3_object_versions(s3, **base_kwargs):
     versionidmarker = None
